@@ -1,6 +1,10 @@
-#sampleDiagram, #freehandDrawing {
+#sampleDiagram, #tournamentDiagram {
 	height: 300px;
 	width: 80%;
 	background: #b1b1b1;
 	margin-bottom: 50px;
+}
+#tournamentDiagram {
+	background-color: #000;
+	border: 1px solid;
 }

@@ -1,5 +1,5 @@
 var $ = go.GraphObject.make;
-var myDiagram =
+var myDiagram1 =
   $(go.Diagram, "sampleDiagram",
     {
       initialContentAlignment: go.Spot.Center, // center Diagram contents
@@ -9,7 +9,7 @@ var myDiagram =
     });
 
 // define a simple Node template
-myDiagram.nodeTemplate =
+myDiagram1.nodeTemplate =
   $(go.Node, "Horizontal",
     {background: "#44ccff"},
     // the entire node will have a light-blue background
@@ -45,4 +45,4 @@ model.nodeDataArray =
   { key: "5", parent: "3", name: "Text 5",     source: "images/cat1.png" },
   { key: "6", parent: "2", name: "Text 6", source: "images/cat1.png" }
 ];
-myDiagram.model = model;
+myDiagram1.model = model;
